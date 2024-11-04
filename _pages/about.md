@@ -9,5 +9,5 @@ redirect_from:
 
 I am currently pursuing my PhD under the supervision of [Ludovic Levy Patey](https://ludovicpatey.com) and [Julien Cervelle](https://jc.lacl.fr) focusing on the reverse mathematical aspects of several theorems, primarily coming from Ramsey theory. 
 
-You can download my [CV](https://quentinlh.github.io/files/CV.pdf) (in french)
+You can download my CV (in french)
 
