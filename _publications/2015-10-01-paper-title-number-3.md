@@ -7,6 +7,7 @@ excerpt: 'This paper is about the number 3. The number 4 is left for future work
 date: 2015-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 citation: 'Q. Le Houérou, L. Levy Patey and K. Yokoyama. &quot;Conservation of Ramsey's theorem for pairs and well-foundedness.&quot; '
 
 
