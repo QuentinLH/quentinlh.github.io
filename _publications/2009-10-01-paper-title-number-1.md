@@ -1,7 +1,7 @@
 ---
 title: "Conservation of Ramsey's theorem for pairs and well-foundedness"
 collection: publications
-category: preprints
+category: manuscripts
 permalink: /publication/Conservation_of_Ramsey_s_theorem_for_pairs_and_well_foundedness
 date: 2024-01-18
 paperurl: 'http://academicpages.github.io/files/Conservation_of_Ramsey_s_theorem_for_pairs_and_well_foundedness.pdf'
