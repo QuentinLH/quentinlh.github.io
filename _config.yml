@@ -11,7 +11,7 @@ locale                   : "fr_FR"
 title                    : "Quentin Le Houérou"
 title_separator          : "-"
 name                     : &name "Quentin Le Houérou"
-description              : &description "PhD student at Paris-East-Créteil University"
+description              : &description "PhD student at Paris-Est-Créteil University"
 url                      : https://quentinlh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "quentinlh.github.io"
@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Quentin Le Houérou"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student at Paris-East-Créteil University"
-  location         : "Earth"
-  employer         : "Paris-East-Créteil University"
+  bio              : "PhD student at Paris-Est-Créteil University"
+  location         : "France"
+  employer         : "Paris-Est-Créteil University"
   uri              : # URL
   email            : "quentin.le-houerou@computability.fr" 
 
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # Username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -82,6 +82,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
