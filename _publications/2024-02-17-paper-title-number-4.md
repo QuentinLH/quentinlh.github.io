@@ -1,13 +1,10 @@
 ---
-title: "Paper Title Number 2"
+title: "Conservation of Ramsey's theorem for pairs and well-foundedness"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
+category: preprints
+permalink: /publication/Conservation_of_Ramsey_s_theorem_for_pairs_and_well_foundedness
+date: 2024-01-18
+paperurl: 'http://academicpages.github.io/files/Conservation_of_Ramsey_s_theorem_for_pairs_and_well_foundedness.pdf'
 citation: "Your Name, You. (2010). &quot;Conservation of Ramsey's theorem for pairs and well-foundedness.&quot; <i>Journal 1</i>. 1(2)."
 ---
 
