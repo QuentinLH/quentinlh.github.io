@@ -2,9 +2,9 @@
 title: "Conservation of Ramsey's theorem for pairs and well-foundedness"
 collection: publications
 category: preprints
-permalink: /publication/Conservation_of_Ramsey_s_theorem_for_pairs_and_well_foundedness
+permalink: /publication/houerou2024conservation
 date: 2024-01-18
-paperurl: 'http://academicpages.github.io/files/Conservation_of_Ramsey_s_theorem_for_pairs_and_well_foundedness.pdf'
+paperurl: 'http://academicpages.github.io/files/houerou2024conservation.pdf'
 citation: "Q. Le Houérou, L. Levy Patey and K. Yokoyama (2024). &quot;Conservation of Ramsey's theorem for pairs and well-foundedness.&quot;."
 
 ---
