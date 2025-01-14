@@ -5,7 +5,7 @@ category: preprints
 permalink: /publication/carlucci2024ramsey
 date: 2024-12-16
 paperurl: 'http://quentinlh.github.io/files/carlucci2024ramsey.pdf'
-citation: "L. Carlucci, O. Gjetaj, Q. Le Houérou and L. Levy Patey(2024). &quot;Ramsey-like theorems for the Schreier barrier.&quot;."
+citation: "L. Carlucci, O. Gjetaj, Q. Le Houérou and L. Levy Patey (2024). &quot;Ramsey-like theorems for the Schreier barrier.&quot;."
 
 ---
 
