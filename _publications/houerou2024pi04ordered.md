@@ -1,7 +1,7 @@
 ---
 title: "Pi04 conservation of the Ordered Variable Word theorem"
 collection: publications
-category: preprints
+category: articles
 permalink: /publication/houerou2024pi04ordered
 date: 2024-04-29
 paperurl: 'http://quentinlh.github.io/files/houerou2024pi04ordered.pdf'
