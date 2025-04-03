@@ -5,7 +5,7 @@ category: articles
 permalink: /publication/houerou2024pi04ordered
 date: 2024-04-29
 paperurl: 'http://quentinlh.github.io/files/houerou2024pi04ordered.pdf'
-citation: "Q. Le Houérou and L. Levy Patey (2024). &quot;Pi04 conservation of the Ordered Variable Word theorem.&quot;."
+citation: "Q. Le Houérou and L. Levy Patey (2024). &quot;Pi04 conservation of the Ordered Variable Word theorem. The Journal of Symbolic Logic. Published online 2025:1-16. doi:10.1017/jsl.2024.64&quot;."
 
 ---
 
