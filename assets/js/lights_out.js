@@ -50,8 +50,8 @@ function update(n,k){
 	}
 	grille[n][k] = 1 - grille[n][k];
 	afficher();
-	if check(){
-		document.getElementById("grid").innerHTML += `<p> Congrats ! </p>`
+	if (check()){
+		document.getElementById("grid").innerHTML += `<p> Congrats ! </p>`;
 	}
 }	
 
@@ -59,10 +59,10 @@ function check(){
 	for(i = 0; i < taille; i++){
 		for(j = 0; j < taille; j++){
 			if (!grille[i][j]){
-				return false
+				return false;
 			}
 		}
 	}
-	return true
+	return true;
 }
 
