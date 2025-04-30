@@ -42,6 +42,21 @@ function generate(){
 	afficher();
 }	
 
+// computes the positive modulo, instead of the one that depends on the sign of n
+function mod(n, m) {
+	return ((n % m) + m) % m;
+  }
+
+function update_small(n,k){
+	if (grid_type == "torus"){
+		grille[mod(n,taille)][mod(k,taille)] = 1 - grille[mod(n,taille)][mod(k,taille)];
+	} else {
+		if (k >= 0 && n >= 0 && k < taille && n < taille) {
+			grille[n][k] = 1 - grille[n][k];
+		}
+	}
+}
+
 
 
 
@@ -53,7 +68,21 @@ function update(n,k){
 			grille[n][i] = 1 - grille[n][i];
 		}
 		grille[n][k] = 1 - grille[n][k];
-	}
+	} else if (light == "small cross"){
+		var i;
+		for (i = -1;i < 2;i++) {
+			update_small(n + i,k + i);
+			update_small(n + i,k - i);
+		}
+		update_small(n,k);
+	} else {
+		var i,j;
+		for (i = n-1;i < n+2;i++) {
+			for (j = k-1;j < k+2;j++) {
+				update_small(i,j);
+			}
+		}
+	}	
 	
 	afficher();
 	if (check()){
