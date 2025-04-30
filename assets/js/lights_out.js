@@ -6,7 +6,7 @@ function test(n){
 	document.getElementById("bouton").innerHTML = cookies;
 };
 
-var grille, taille;
+var grille, taille, light, grid_type;
 
 function makeArray(n,k){
 	var arr = new Array(n), i;
@@ -34,7 +34,10 @@ function afficher(){
 }
 
 function generate(){	
+	light = document.getElementById("light-select").value;
+	grid_type = document.getElementById("grid_type-select").value;
 	taille = parseInt(document.getElementById('taille').value);
+	
 	grille = makeArray(taille,taille);
 	afficher();
 }	
@@ -43,12 +46,15 @@ function generate(){
 
 
 function update(n,k){
-	var i;
-	for(i = 0;i < taille;i++){
-		grille[i][k] = 1 - grille[i][k];
-		grille[n][i] = 1 - grille[n][i];
+	if (light == "big cross"){
+		var i;
+	    for(i = 0;i < taille;i++){
+			grille[i][k] = 1 - grille[i][k];
+			grille[n][i] = 1 - grille[n][i];
+		}
+		grille[n][k] = 1 - grille[n][k];
 	}
-	grille[n][k] = 1 - grille[n][k];
+	
 	afficher();
 	if (check()){
 		document.getElementById("grid").innerHTML += `<p> Congrats ! </p>`;

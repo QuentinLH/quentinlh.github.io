@@ -17,6 +17,20 @@ permalink: /lights_out/
   <body>
   
 	<h1>Lights out</h1>
+
+	<label for="light-select">Choose a light type:</label>
+	<select name="lights" id="light-select">
+      <option value="big cross">Big cross</option>
+      <option value="small cross">Small cross</option>
+  	  <option value="square">Square</option>
+	</select>
+
+	<label for="grid_type-select">Choose a grid type:</label>
+	<select name="grids" id="grid_type-select">
+      <option value="with borders">With borders</option>
+      <option value="torus">Torus</option>
+	</select>
+
 	<label for="name">Size (between 1 and 9):</label>
 	<span>
 		<input type="number" id="taille" name="name" required minlength="1" maxlength="1"/>
