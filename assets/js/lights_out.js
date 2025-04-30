@@ -71,8 +71,8 @@ function update(n,k){
 	} else if (light == "small cross"){
 		var i;
 		for (i = -1;i < 2;i++) {
-			update_small(n + i,k + i);
-			update_small(n + i,k - i);
+			update_small(n + i,k);
+			update_small(n,k + i);
 		}
 		update_small(n,k);
 	} else {
