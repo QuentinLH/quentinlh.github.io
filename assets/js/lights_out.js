@@ -9,18 +9,18 @@ function test(n){
 var grille, longueur, largeur, light, grid_type;
 
 function makeArray(){
-	var arr = new Array(longueur), i;
-	for(i = 0; i < longueur; i++){
-		arr[i] = Array(largeur).fill(0);
+	var arr = new Array(largeur), i;
+	for(i = 0; i < largeur; i++){
+		arr[i] = Array(longueur).fill(0);
 	}
 	return arr;
 }
 
 function afficher(){
 	var content = '<table style="border-collapse: collapse; display: flex;">', i, j;
-	for(i = 0; i < longueur; i++){
+	for(i = 0; i < largeur; i++){
 		content += "<tr>";
-		for(j = 0; j < largeur; j++){
+		for(j = 0; j < longueur; j++){
 			if (grille[i][j]){
 				content += `<td><button style="background-color:white;" onclick="update(${i},${j})"></button></td>`;
 			} else {
@@ -50,9 +50,9 @@ function mod(n, m) {
 
 function update_small(n,k){
 	if (grid_type == "torus"){
-		grille[mod(n,longueur)][mod(k,largeur)] = 1 - grille[mod(n,longueur)][mod(k,largeur)];
+		grille[mod(n,largeur)][mod(k,longueur)] = 1 - grille[mod(n,largeur)][mod(k,longueur)];
 	} else {
-		if (k >= 0 && n >= 0 && k < largeur && n < longueur) {
+		if (k >= 0 && n >= 0 && k < longueur && n < largeur) {
 			grille[n][k] = 1 - grille[n][k];
 		}
 	}
@@ -64,10 +64,10 @@ function update_small(n,k){
 function update(n,k){
 	if (light == "big cross"){
 		var i;
-	    for(i = 0;i < longueur;i++){
+	    for(i = 0;i < largeur;i++){
 			grille[i][k] = 1 - grille[i][k];
 		}
-		for(i = 0;i < largeur;i++){ 
+		for(i = 0;i < longueur;i++){ 
 			grille[n][i] = 1 - grille[n][i];
 		}
 		grille[n][k] = 1 - grille[n][k];
@@ -94,8 +94,8 @@ function update(n,k){
 }	
 
 function check(){
-	for(i = 0; i < longueur; i++){
-		for(j = 0; j < largeur; j++){
+	for(i = 0; i < largeur; i++){
+		for(j = 0; j < longueur; j++){
 			if (!grille[i][j]){
 				return false;
 			}
