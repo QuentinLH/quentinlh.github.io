@@ -36,7 +36,7 @@ function afficher(){
 function generate(){	
 	light = document.getElementById("light-select").value;
 	grid_type = document.getElementById("grid_type-select").value;
-	longeur = parseInt(document.getElementById('longeur').value);
+	longueur = parseInt(document.getElementById('longueur').value);
 	largeur = parseInt(document.getElementById('largeur').value);
 
 	grille = makeArray();
@@ -50,9 +50,9 @@ function mod(n, m) {
 
 function update_small(n,k){
 	if (grid_type == "torus"){
-		grille[mod(n,longeur)][mod(k,largeur)] = 1 - grille[mod(n,longeur)][mod(k,largeur)];
+		grille[mod(n,longueur)][mod(k,largeur)] = 1 - grille[mod(n,longueur)][mod(k,largeur)];
 	} else {
-		if (k >= 0 && n >= 0 && k < largeur && n < longeur) {
+		if (k >= 0 && n >= 0 && k < largeur && n < longueur) {
 			grille[n][k] = 1 - grille[n][k];
 		}
 	}
@@ -64,7 +64,7 @@ function update_small(n,k){
 function update(n,k){
 	if (light == "big cross"){
 		var i;
-	    for(i = 0;i < longeur;i++){
+	    for(i = 0;i < longueur;i++){
 			grille[i][k] = 1 - grille[i][k];
 		}
 		for(i = 0;i < largeur;i++){ 
@@ -94,7 +94,7 @@ function update(n,k){
 }	
 
 function check(){
-	for(i = 0; i < longeur; i++){
+	for(i = 0; i < longueur; i++){
 		for(j = 0; j < largeur; j++){
 			if (!grille[i][j]){
 				return false;
