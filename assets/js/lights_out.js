@@ -17,7 +17,7 @@ function makeArray(){
 }
 
 function afficher(){
-	var content = '<table style="border-collapse: collapse; display: flex;">', i, j;
+	var content = '<table style="border-collapse: collapse; display: flex;">';
 	for(i = 0; i < largeur; i++){
 		content += "<tr>";
 		for(j = 0; j < longueur; j++){
@@ -97,6 +97,7 @@ function update(n,k){
 }	
 
 function check(){
+	var i,j;
 	for(i = 0; i < largeur; i++){
 		for(j = 0; j < longueur; j++){
 			if (!grille[i][j]){
@@ -108,6 +109,7 @@ function check(){
 }
 
 function randomize(){
+	var i,j;
 	for(i = 0; i < largeur; i++){
 		for(j = 0; j < longueur; j++){
 			if (Math.random() >= 0.5){
