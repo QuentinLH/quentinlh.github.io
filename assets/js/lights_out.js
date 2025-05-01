@@ -64,7 +64,7 @@ function update_small(n,k){
 
 
 
-function update(n,k){
+function update2(n,k){
 	if (light == "big cross"){
 	    for(i = 0;i < largeur;i++){
 			grille[i][k] = 1 - grille[i][k];
@@ -86,7 +86,10 @@ function update(n,k){
 			}
 		}
 	}	
-	
+}
+
+function update(n,k){
+	update2(n,k);
 	afficher();
 	if (check()){
 		document.getElementById("grid").innerHTML += `<p> Congrats ! </p>`;
@@ -108,7 +111,7 @@ function randomize(){
 	for(i = 0; i < largeur; i++){
 		for(j = 0; j < longueur; j++){
 			if (Math.random() >= 0.5){
-				update(i,j);
+				update2(i,j);
 			}
 		}
 	}	
