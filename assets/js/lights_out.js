@@ -6,21 +6,21 @@ function test(n){
 	document.getElementById("bouton").innerHTML = cookies;
 };
 
-var grille, taille, light, grid_type;
+var grille, longueur, largeur, light, grid_type;
 
-function makeArray(n,k){
-	var arr = new Array(n), i;
-	for(i = 0; i < n; i++){
-		arr[i] = Array(k).fill(0);
+function makeArray(){
+	var arr = new Array(longueur), i;
+	for(i = 0; i < longueur; i++){
+		arr[i] = Array(largeur).fill(0);
 	}
 	return arr;
 }
 
 function afficher(){
 	var content = '<table style="border-collapse: collapse; display: flex;">', i, j;
-	for(i = 0; i < taille; i++){
+	for(i = 0; i < longueur; i++){
 		content += "<tr>";
-		for(j = 0; j < taille; j++){
+		for(j = 0; j < largeur; j++){
 			if (grille[i][j]){
 				content += `<td><button style="background-color:white;" onclick="update(${i},${j})"></button></td>`;
 			} else {
@@ -36,9 +36,10 @@ function afficher(){
 function generate(){	
 	light = document.getElementById("light-select").value;
 	grid_type = document.getElementById("grid_type-select").value;
-	taille = parseInt(document.getElementById('taille').value);
-	
-	grille = makeArray(taille,taille);
+	longeur = parseInt(document.getElementById('longeur').value);
+	largeur = parseInt(document.getElementById('largeur').value);
+
+	grille = makeArray();
 	afficher();
 }	
 
@@ -49,9 +50,9 @@ function mod(n, m) {
 
 function update_small(n,k){
 	if (grid_type == "torus"){
-		grille[mod(n,taille)][mod(k,taille)] = 1 - grille[mod(n,taille)][mod(k,taille)];
+		grille[mod(n,longeur)][mod(k,largeur)] = 1 - grille[mod(n,longeur)][mod(k,largeur)];
 	} else {
-		if (k >= 0 && n >= 0 && k < taille && n < taille) {
+		if (k >= 0 && n >= 0 && k < largeur && n < longeur) {
 			grille[n][k] = 1 - grille[n][k];
 		}
 	}
@@ -63,8 +64,10 @@ function update_small(n,k){
 function update(n,k){
 	if (light == "big cross"){
 		var i;
-	    for(i = 0;i < taille;i++){
+	    for(i = 0;i < longeur;i++){
 			grille[i][k] = 1 - grille[i][k];
+		}
+		for(i = 0;i < largeur;i++){ 
 			grille[n][i] = 1 - grille[n][i];
 		}
 		grille[n][k] = 1 - grille[n][k];
@@ -91,8 +94,8 @@ function update(n,k){
 }	
 
 function check(){
-	for(i = 0; i < taille; i++){
-		for(j = 0; j < taille; j++){
+	for(i = 0; i < longeur; i++){
+		for(j = 0; j < largeur; j++){
 			if (!grille[i][j]){
 				return false;
 			}
