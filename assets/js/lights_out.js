@@ -36,8 +36,8 @@ function afficher(){
 function generate(){	
 	light = document.getElementById("light-select").value;
 	grid_type = document.getElementById("grid_type-select").value;
-	longueur = parseInt(document.getElementById('longueur').value);
-	largeur = parseInt(document.getElementById('largeur').value);
+	longueur = parseInt(document.getElementById("longueur").value);
+	largeur = parseInt(document.getElementById("largeur").value);
 
 	grille = makeArray();
 	afficher();
