@@ -9,7 +9,7 @@ function test(n){
 var grille, longueur, largeur, light, grid_type;
 
 function makeArray(){
-	var arr = new Array(largeur), i;
+	var arr = new Array(largeur);
 	for(i = 0; i < largeur; i++){
 		arr[i] = Array(longueur).fill(0);
 	}
@@ -40,6 +40,9 @@ function generate(){
 	largeur = parseInt(document.getElementById("largeur").value);
 
 	grille = makeArray();
+	if (document.getElementById("random_start").checked) {
+		randomize();
+	}
 	afficher();
 }	
 
@@ -63,7 +66,6 @@ function update_small(n,k){
 
 function update(n,k){
 	if (light == "big cross"){
-		var i;
 	    for(i = 0;i < largeur;i++){
 			grille[i][k] = 1 - grille[i][k];
 		}
@@ -72,14 +74,12 @@ function update(n,k){
 		}
 		grille[n][k] = 1 - grille[n][k];
 	} else if (light == "small cross"){
-		var i;
 		for (i = -1;i < 2;i++) {
 			update_small(n + i,k);
 			update_small(n,k + i);
 		}
 		update_small(n,k);
 	} else {
-		var i,j;
 		for (i = n-1;i < n+2;i++) {
 			for (j = k-1;j < k+2;j++) {
 				update_small(i,j);
@@ -102,5 +102,15 @@ function check(){
 		}
 	}
 	return true;
+}
+
+function randomize(){
+	for(i = 0; i < largeur; i++){
+		for(j = 0; j < longueur; j++){
+			if (Math.random() >= 0.5){
+				update(i,j);
+			}
+		}
+	}	
 }
 
