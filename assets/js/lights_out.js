@@ -44,6 +44,9 @@ function generate(){
 		randomize();
 	}
 	afficher();
+	if (check()){
+		document.getElementById("grid").innerHTML += `<p> Congrats ! </p>`;
+	}
 }	
 
 // computes the positive modulo, instead of the one that depends on the sign of n
