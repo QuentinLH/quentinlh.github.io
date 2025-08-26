@@ -1,7 +1,7 @@
 ---
 title: "Ramsey-like theorems for the Schreier barrier"
 collection: publications
-category: preprints
+category: articles
 permalink: /publication/carlucci2024ramsey
 date: 2024-12-16
 paperurl: 'http://quentinlh.github.io/files/carlucci2024ramsey.pdf'
