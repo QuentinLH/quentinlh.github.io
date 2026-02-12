@@ -5,7 +5,7 @@ category: preprints
 permalink: /publication/houerou2026largeness
 date: 2026-02-12
 paperurl: 'http://quentinlh.github.io/files/houerou2026largeness.pdf'
-citation: "Q. Le Houérou and L. Patey (2026). &quot;Largeness notions and polytime translation for \\(\forall \Sigma^0_3\\)-consequences of \\(\mathsf{RT}^2_2\\).&quot; "
+citation: "Q. Le Houérou and L. Patey (2026). &quot;Largeness notions and polytime translation for \(\forall \Sigma^0_3\)-consequences of \(\mathsf{RT}^2_2\).&quot; "
 
 
 ---
