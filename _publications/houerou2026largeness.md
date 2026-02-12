@@ -1,7 +1,7 @@
 ---
 title: "Largeness notions and polytime translation for ∀Σ03-consequences of RT22"
 collection: publications
-category: preprints
+category: articles
 permalink: /publication/houerou2026largeness
 date: 2026-02-12
 paperurl: 'http://quentinlh.github.io/files/houerou2026largeness.pdf'
