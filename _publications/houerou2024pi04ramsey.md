@@ -1,11 +1,11 @@
 ---
 title: "Pi04 conservation of Ramsey's theorem for pairs"
 collection: publications
-category: preprints
+category: articles
 permalink: /publication/houerou2024pi04ramsey
 date: 2024-04-29
 paperurl: 'http://quentinlh.github.io/files/houerou2024pi04ramsey.pdf'
-citation: "Q. Le Houérou, L. Levy Patey and K. Yokoyama (2024). &quot;Pi04 conservation of Ramsey's theorem for pairs.&quot; "
+citation: "Le Houérou, Q., Levy Patey, L. and Yokoyama, K. (2026). &quot;Pi04 conservation of Ramsey's theorem for pairs.&quot; J. London Math. Soc., 113: e70419. https://doi.org/10.1112/jlms.70419"
 
 
 ---
