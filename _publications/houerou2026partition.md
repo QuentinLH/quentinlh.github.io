@@ -5,7 +5,7 @@ category: preprints
 permalink: /publication/houerou2026partition
 date: 2026-02-09
 paperurl: 'http://quentinlh.github.io/files/houerou2026partition.pdf'
-citation: "Q. Le Houérou and L. Patey (2025). &quot;Partition theorems for Ketonen-Solovay largeness.&quot; "
+citation: "Q. Le Houérou and L. Patey (2026). &quot;Partition theorems for Ketonen-Solovay largeness.&quot; "
 
 
 ---
