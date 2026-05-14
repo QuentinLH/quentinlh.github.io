@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing my PhD under the supervision of [Ludovic Levy Patey](https://ludovicpatey.com) and [Julien Cervelle](https://jc.lacl.fr) focusing on the reverse mathematical aspects of several theorems, primarily coming from Ramsey theory. 
+I am currently pursuing my PhD under the supervision of [Ludovic Patey](https://ludovicpatey.com) and [Julien Cervelle](https://jc.lacl.fr) focusing on the reverse mathematical aspects of several theorems, primarily coming from Ramsey theory. 
 
 You can download my [CV](https://lehouerou.fr/files/CV.pdf).
 
