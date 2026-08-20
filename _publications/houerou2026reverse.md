@@ -1,11 +1,11 @@
 ---
 title: "The reverse mathematics of bounded Ramsey's theorem for pairs"
 collection: publications
-category: preprints
-permalink: /publication/houerou2025reverse
-date: 2025-09-11
-paperurl: 'http://quentinlh.github.io/files/houerou2025reverse.pdf'
-citation: "Q. Le Houérou and L. Patey (2025). &quot;The reverse mathematics of bounded Ramsey's theorem for pairs.&quot; "
+category: articles
+permalink: /publication/houerou2026reverse
+date: 2026-06-18
+paperurl: 'http://quentinlh.github.io/files/houerou2026reverse.pdf'
+citation: "Q. Le Houérou and L. Patey. &quot;The reverse mathematics of bounded Ramsey's theorem for pairs.&quot; The Journal of Symbolic Logic. Published online 2026:1-26. doi:10.1017/jsl.2026.10226." 
 
 
 ---

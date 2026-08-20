@@ -1,11 +1,11 @@
 ---
 title: "Ramsey-like theorems for separable permutations"
 collection: publications
-category: preprints
-permalink: /publication/houerou2024reverse
-date: 2025-07-10
-paperurl: 'http://quentinlh.github.io/files/houerou2025ramsey.pdf'
-citation: "Q. Le Houérou and L. Patey (2025). &quot;Ramsey-like theorems for separable permutations.&quot; "
+category: articles
+permalink: /publication/houerou2026ramsey
+date: 2026-06-18
+paperurl: 'http://quentinlh.github.io/files/houerou2026ramsey.pdf'
+citation: "Q. Le Houérou and L. Patey (2025). &quot;Ramsey-like theorems for separable permutations.&quot; Transactions of the AMS, to appear."
 
 
 ---
