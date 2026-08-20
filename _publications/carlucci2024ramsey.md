@@ -5,7 +5,7 @@ category: articles
 permalink: /publication/carlucci2024ramsey
 date: 2024-12-16
 paperurl: 'http://quentinlh.github.io/files/carlucci2024ramsey.pdf'
-citation: "Carlucci L, Gjetaj O, Le houérou Q, Levy Patey L. Ramsey-like theorems for the Schreier Barrier. The Journal of Symbolic Logic. Published online 2025:1-30. doi:10.1017/jsl.2025.10104 "
+citation: "Carlucci L, Gjetaj O, Le houérou Q, Levy Patey L. &quot;Ramsey-like theorems for the Schreier Barrier.&quot; The Journal of Symbolic Logic. Published online 2025:1-30. doi:10.1017/jsl.2025.10104 "
 
 ---
 
